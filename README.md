@@ -2,9 +2,21 @@
 
 ## Deployment
 
-```bash
+1. Build and push docker image to GitHub.
+
+```
 ./docker/build-and-push.sh [VERSION_TAG]
 ```
+
+2. Create and push tag to GitHub.
+
+```
+git tag --sign -a "v[VERSION_TAG]" -m "[RELEASE_HEADER]"
+
+git push origin "v[VERSION_TAG]"
+```
+
+3. Create a release on GitHub.
 
 ## Contributing
 
