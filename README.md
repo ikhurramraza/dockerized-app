@@ -1,6 +1,6 @@
-# Dockerized App
+# 🐳 Dockerized App
 
-## Deployment
+## 🚀 Deployment
 
 1. Build and push docker image to GitHub.
 
@@ -18,12 +18,12 @@ git push origin "v[VERSION_TAG]"
 
 3. Create a release on GitHub.
 
-## Contributing
+## 🤝 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## License
+## ⚖️ License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
